@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ app_name }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/css/app.css" />
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+    <div class="bg-grid"></div>
+
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Project Hermes</p>
+        <h1>{{ app_name }}</h1>
+        <p class="subtitle">
+          Daily fixtures with transparent win and draw probabilities based on recent form and goal models.
+        </p>
+      </div>
+      <div class="date-picker">
+        <label for="match-date">Match day</label>
+        <div class="date-controls">
+          <input id="match-date" type="date" />
+          <button id="today-btn" type="button">Today</button>
+        </div>
+        <p id="source-line" class="source-line">Source: sample</p>
+        <div id="warnings" class="warnings"></div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="matches">
+        <div class="section-head">
+          <h2>Matches</h2>
+          <p id="match-count">0 fixtures</p>
+        </div>
+        <div id="matches-list" class="matches-list"></div>
+      </section>
+
+      <aside class="insight">
+        <div class="panel">
+          <h3>How odds are built</h3>
+          <ul class="model-list">
+            <li>Recent form: points per game and goal trends.</li>
+            <li>Goal model: Poisson scoring probabilities.</li>
+            <li>Blend: 70% goals model, 30% form adjustment.</li>
+            <li>Player impact: top scorers boost team strength.</li>
+          </ul>
+          <p class="disclaimer">
+            This is a heuristic model for analysis. It is not betting advice.
+          </p>
+        </div>
+        <div class="panel panel-alt">
+          <h3>Confidence bands</h3>
+          <div class="bands">
+            <div><span class="dot high"></span> High 0.60+</div>
+            <div><span class="dot mid"></span> Mid 0.50-0.59</div>
+            <div><span class="dot low"></span> Low below 0.50</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>

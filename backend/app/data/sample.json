@@ -1,0 +1,58 @@
+{
+  "matches": [
+    {
+      "id": 1001,
+      "utcDate": "2026-03-10T18:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "Premier League"},
+      "homeTeam": {"id": 66, "name": "Manchester United", "shortName": "Man United"},
+      "awayTeam": {"id": 65, "name": "Manchester City", "shortName": "Man City"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    },
+    {
+      "id": 1002,
+      "utcDate": "2026-03-10T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "La Liga"},
+      "homeTeam": {"id": 81, "name": "Barcelona", "shortName": "Barca"},
+      "awayTeam": {"id": 86, "name": "Real Madrid", "shortName": "Real"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    },
+    {
+      "id": 1003,
+      "utcDate": "2026-03-10T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "Serie A"},
+      "homeTeam": {"id": 98, "name": "AC Milan", "shortName": "Milan"},
+      "awayTeam": {"id": 109, "name": "Juventus", "shortName": "Juve"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    },
+    {
+      "id": 1004,
+      "utcDate": "2026-03-10T21:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "Bundesliga"},
+      "homeTeam": {"id": 5, "name": "Bayern Munich", "shortName": "Bayern"},
+      "awayTeam": {"id": 4, "name": "Borussia Dortmund", "shortName": "BVB"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    },
+    {
+      "id": 1005,
+      "utcDate": "2026-03-10T22:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "Ligue 1"},
+      "homeTeam": {"id": 524, "name": "Paris Saint-Germain", "shortName": "PSG"},
+      "awayTeam": {"id": 518, "name": "Olympique Marseille", "shortName": "OM"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    },
+    {
+      "id": 1006,
+      "utcDate": "2026-03-10T23:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {"name": "MLS"},
+      "homeTeam": {"id": 400, "name": "LA Galaxy", "shortName": "Galaxy"},
+      "awayTeam": {"id": 401, "name": "LAFC", "shortName": "LAFC"},
+      "score": {"fullTime": {"home": null, "away": null}}
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "leagues": [
+    {"name": "Premier League", "country": "England", "provider": "api_football", "league_id": 39, "season_strategy": "european"},
+    {"name": "La Liga", "country": "Spain", "provider": "api_football", "league_id": null, "season_strategy": "european"},
+    {"name": "Serie A", "country": "Italy", "provider": "api_football", "league_id": null, "season_strategy": "european"},
+    {"name": "Bundesliga", "country": "Germany", "provider": "api_football", "league_id": null, "season_strategy": "european"},
+    {"name": "Ligue 1", "country": "France", "provider": "api_football", "league_id": null, "season_strategy": "european"},
+    {"name": "Major League Soccer", "country": "USA", "provider": "api_football", "league_id": null, "season_strategy": "calendar"},
+    {"name": "Botola Pro", "country": "Morocco", "provider": "api_football", "league_id": null, "season_strategy": "european"},
+    {"name": "Saudi Pro League", "country": "Saudi Arabia", "provider": "api_football", "league_id": null, "season_strategy": "european"}
+  ]
+}
